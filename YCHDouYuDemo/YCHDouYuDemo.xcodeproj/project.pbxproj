@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B53EF19122ACDA2B0050B2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF19022ACDA2B0050B2DE /* AppDelegate.swift */; };
-		B53EF19322ACDA2B0050B2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF19222ACDA2B0050B2DE /* ViewController.swift */; };
 		B53EF19622ACDA2B0050B2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53EF19422ACDA2B0050B2DE /* Main.storyboard */; };
 		B53EF19822ACDA2B0050B2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53EF19722ACDA2B0050B2DE /* Assets.xcassets */; };
 		B53EF19B22ACDA2B0050B2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53EF19922ACDA2B0050B2DE /* LaunchScreen.storyboard */; };
 		B53EF1A622ACDA2B0050B2DE /* YCHDouYuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1A522ACDA2B0050B2DE /* YCHDouYuDemoTests.swift */; };
 		B53EF1B122ACDA2B0050B2DE /* YCHDouYuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1B022ACDA2B0050B2DE /* YCHDouYuDemoUITests.swift */; };
+		B53EF1DD22AD081A0050B2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1DC22AD081A0050B2DE /* AppDelegate.swift */; };
+		B53EF1E122AD0C050050B2DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1E022AD0C050050B2DE /* HomeViewController.swift */; };
+		B53EF1E522AD0C620050B2DE /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1E422AD0C620050B2DE /* LiveViewController.swift */; };
+		B53EF1E722AD0C810050B2DE /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1E622AD0C810050B2DE /* FocusViewController.swift */; };
+		B53EF1E922AD0C930050B2DE /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1E822AD0C930050B2DE /* MyViewController.swift */; };
+		B53EF1EE22AD0D660050B2DE /* YCHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53EF1ED22AD0D660050B2DE /* YCHBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +39,6 @@
 
 /* Begin PBXFileReference section */
 		B53EF18D22ACDA2B0050B2DE /* YCHDouYuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCHDouYuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B53EF19022ACDA2B0050B2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B53EF19222ACDA2B0050B2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B53EF19522ACDA2B0050B2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B53EF19722ACDA2B0050B2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53EF19A22ACDA2B0050B2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,12 @@
 		B53EF1AC22ACDA2B0050B2DE /* YCHDouYuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCHDouYuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53EF1B022ACDA2B0050B2DE /* YCHDouYuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YCHDouYuDemoUITests.swift; sourceTree = "<group>"; };
 		B53EF1B222ACDA2B0050B2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53EF1DC22AD081A0050B2DE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B53EF1E022AD0C050050B2DE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B53EF1E422AD0C620050B2DE /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		B53EF1E622AD0C810050B2DE /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
+		B53EF1E822AD0C930050B2DE /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		B53EF1ED22AD0D660050B2DE /* YCHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCHBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,11 @@
 		B53EF18F22ACDA2B0050B2DE /* YCHDouYuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B53EF19022ACDA2B0050B2DE /* AppDelegate.swift */,
-				B53EF19222ACDA2B0050B2DE /* ViewController.swift */,
+				B53EF1DE22AD0BB20050B2DE /* Class */,
+				B53EF1DB22AD081A0050B2DE /* App */,
+				B53EF19922ACDA2B0050B2DE /* LaunchScreen.storyboard */,
 				B53EF19422ACDA2B0050B2DE /* Main.storyboard */,
 				B53EF19722ACDA2B0050B2DE /* Assets.xcassets */,
-				B53EF19922ACDA2B0050B2DE /* LaunchScreen.storyboard */,
 				B53EF19C22ACDA2B0050B2DE /* Info.plist */,
 			);
 			path = YCHDouYuDemo;
@@ -123,6 +131,42 @@
 				B53EF1B222ACDA2B0050B2DE /* Info.plist */,
 			);
 			path = YCHDouYuDemoUITests;
+			sourceTree = "<group>";
+		};
+		B53EF1DB22AD081A0050B2DE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B53EF1DC22AD081A0050B2DE /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B53EF1DE22AD0BB20050B2DE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B53EF1EC22AD0D660050B2DE /* Base */,
+				B53EF1DF22AD0BC10050B2DE /* Index */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B53EF1DF22AD0BC10050B2DE /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				B53EF1E022AD0C050050B2DE /* HomeViewController.swift */,
+				B53EF1E422AD0C620050B2DE /* LiveViewController.swift */,
+				B53EF1E622AD0C810050B2DE /* FocusViewController.swift */,
+				B53EF1E822AD0C930050B2DE /* MyViewController.swift */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		B53EF1EC22AD0D660050B2DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B53EF1ED22AD0D660050B2DE /* YCHBaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53EF19322ACDA2B0050B2DE /* ViewController.swift in Sources */,
-				B53EF19122ACDA2B0050B2DE /* AppDelegate.swift in Sources */,
+				B53EF1E722AD0C810050B2DE /* FocusViewController.swift in Sources */,
+				B53EF1DD22AD081A0050B2DE /* AppDelegate.swift in Sources */,
+				B53EF1E522AD0C620050B2DE /* LiveViewController.swift in Sources */,
+				B53EF1E922AD0C930050B2DE /* MyViewController.swift in Sources */,
+				B53EF1EE22AD0D660050B2DE /* YCHBaseViewController.swift in Sources */,
+				B53EF1E122AD0C050050B2DE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

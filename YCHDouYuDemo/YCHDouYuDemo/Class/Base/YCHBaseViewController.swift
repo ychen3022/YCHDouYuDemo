@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  YCHBaseViewController.swift
 //  YCHDouYuDemo
 //
 //  Created by 陈园 on 2019/6/9.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class YCHBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.white;
     }
+    
 
 
 }
-
